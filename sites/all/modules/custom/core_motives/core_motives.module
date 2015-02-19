@@ -1,0 +1,7 @@
+<?php
+
+drupal_add_js(drupal_get_path('module', 'core_motives') .'/core_motives.js', array(
+  'scope' => 'footer',
+  'every_page' => TRUE,
+  'weight' => -1,
+));

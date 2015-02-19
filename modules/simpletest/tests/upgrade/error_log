@@ -1,0 +1,1 @@
+[11-Dec-2014 01:51:36 UTC] PHP Fatal error:  Call to undefined function db_insert() in /home/rumseyad/public_html/modules/simpletest/tests/upgrade/drupal-6.upload.database.php on line 3
