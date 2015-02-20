@@ -7,53 +7,40 @@
 /****************
 OUR CUSTOM MIXINS
 *****************/
-/***********
-~VARIABLES
-***********/
-/***********
-~BREAKPOINTS
-***********/
-/*  Syntax Quick Reference
-  --------------------------
-  column($ratios: 1, $offset: 0, $cycle: 0, $uncycle: 0, $gutter: $jeet-gutter)
-  span($ratio: 1, $offset: 0)
-  shift($ratios: 0, $col_or_span: column, $gutter: $jeet-gutter)
-  unshift()
-  edit()
-  center($max_width: 1410px, $pad: 0)
-  stack($pad: 0, $align: false)
-  unstack()
-  align($direction: both)
-  cf()
-*/
 @media print {
+  /* line 13, ../sass/print.scss */
   a:link,
   a:visited {
     /* underline all links */
     text-decoration: underline !important;
   }
+  /* line 17, ../sass/print.scss */
   #site-name a:link, #site-name
   a:visited {
     /* Don't underline header */
     text-decoration: none !important;
   }
 
+  /* line 23, ../sass/print.scss */
   #content a[href]:after {
     /* Add visible URL after links. */
     content: " (" attr(href) ")";
     font-weight: normal;
     font-size: 16px;
   }
+  /* line 29, ../sass/print.scss */
   #content a[href^="javascript:"]:after,
   #content a[href^="#"]:after {
     /* Only display useful links. */
     content: "";
   }
+  /* line 34, ../sass/print.scss */
   #content abbr[title]:after {
     /* Add visible title after abbreviations. */
     content: " (" attr(title) ")";
   }
 
+  /* line 39, ../sass/print.scss */
   #content {
     /* Un-float the content */
     float: none !important;
@@ -62,6 +49,7 @@ OUR CUSTOM MIXINS
     padding: 0 !important;
   }
 
+  /* line 46, ../sass/print.scss */
   body,
   #page,
   #main,
@@ -72,6 +60,7 @@ OUR CUSTOM MIXINS
     background-image: none !important;
   }
 
+  /* line 55, ../sass/print.scss */
   #skip-link,
   #toolbar,
   #navigation,

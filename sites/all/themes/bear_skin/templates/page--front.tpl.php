@@ -122,9 +122,11 @@
 			
 <section class="content-area clear">
 	<div class="container-common clear">
-		<div class="left">
-			<?php print render($page['featured1']); ?>
-		</div>
+		<?php if ($page['featured1']) : ?>
+			<div class="left">
+				<?php print render($page['featured1']); ?>
+			</div>
+		<?php endif; ?>
 		<div class="middle">
 			<?php print render($page['featured2']); ?>
 			

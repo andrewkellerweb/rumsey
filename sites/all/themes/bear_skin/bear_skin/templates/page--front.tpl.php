@@ -122,9 +122,7 @@
 			
 <section class="content-area clear">
 	<div class="container-common clear">
-		<div class="left">
-			
-		</div>
+
 		<div class="middle">
 			<?php print render($page['featured2']); ?>
 			
