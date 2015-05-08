@@ -122,18 +122,17 @@
 			
 <section class="content-area clear">
 	<div class="container-common clear">
-		<?php if ($page['featured1']) : ?>
-			<div class="left">
-				<?php print render($page['featured1']); ?>
-			</div>
-		<?php endif; ?>
+		<div class="left">
+			
+		</div>
 		<div class="middle">
 			<?php print render($page['featured2']); ?>
 			
 			<h2 class="join">Join our E-Mail List</h2>
 			<div class="join-newsletter">
 				<div class="form content" style="display: none;">
-					<?php print render($page['content']); ?>
+					TEST
+					<?php print render($page['featured1']); ?>
 				</div>
 			</div>
 		</div>

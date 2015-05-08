@@ -2,13 +2,31 @@
 /****************
 OUR CUSTOM MIXINS
 *****************/
+/***********
+~VARIABLES
+***********/
+/***********
+~BREAKPOINTS
+***********/
+/*  Syntax Quick Reference
+  --------------------------
+  column($ratios: 1, $offset: 0, $cycle: 0, $uncycle: 0, $gutter: $jeet-gutter)
+  span($ratio: 1, $offset: 0)
+  shift($ratios: 0, $col_or_span: column, $gutter: $jeet-gutter)
+  unshift()
+  edit()
+  center($max_width: 1410px, $pad: 0)
+  stack($pad: 0, $align: false)
+  unstack()
+  align($direction: both)
+  cf()
+*/
 /* =============================================================================
    Lists
    ========================================================================== */
 /*
  * Addresses margins set differently in IE6/7
  */
-/* line 14, ../sass/normalize-rtl.scss */
 dd {
   margin: 0 30px 0 0;
 }
@@ -16,7 +34,6 @@ dd {
 /*
  * Addresses paddings set differently in IE6/7
  */
-/* line 22, ../sass/normalize-rtl.scss */
 menu,
 ol,
 ul,
@@ -33,7 +50,6 @@ ul,
 /* =============================================================================
    Tables
    ========================================================================== */
-/* line 48, ../sass/normalize-rtl.scss */
 th {
   text-align: right;
 }

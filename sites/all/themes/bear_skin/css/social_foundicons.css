@@ -6,7 +6,7 @@
   font-weight: normal;
   font-style: normal;
 }
-/* line 6, ../sass/social_foundicons.scss */
+
 [class*="foundicon-"]:after {
   position: relative;
   top: -10px;
@@ -21,158 +21,127 @@
   display: none;
 }
 
-/* line 20, ../sass/social_foundicons.scss */
 .foundicon-thumb-up:after {
   content: "thumb-up";
 }
 
-/* line 21, ../sass/social_foundicons.scss */
 .foundicon-thumb-down:after {
   content: "thumb-down";
 }
 
-/* line 22, ../sass/social_foundicons.scss */
 .foundicon-rss:after {
   content: "rss";
 }
 
-/* line 23, ../sass/social_foundicons.scss */
 .foundicon-facebook:after {
   content: "facebook";
 }
 
-/* line 24, ../sass/social_foundicons.scss */
 .foundicon-twitter:after {
   content: "twitter";
 }
 
-/* line 25, ../sass/social_foundicons.scss */
 .foundicon-pinterest:after {
   content: "pinterest";
 }
 
-/* line 26, ../sass/social_foundicons.scss */
 .foundicon-github:after {
   content: "github";
 }
 
-/* line 27, ../sass/social_foundicons.scss */
 .foundicon-path:after {
   content: "path";
 }
 
-/* line 28, ../sass/social_foundicons.scss */
 .foundicon-linkedin:after {
   content: "linkedin";
 }
 
-/* line 29, ../sass/social_foundicons.scss */
 .foundicon-dribbble:after {
   content: "dribbble";
 }
 
-/* line 30, ../sass/social_foundicons.scss */
 .foundicon-stumble-upon:after {
   content: "stumble-upon";
 }
 
-/* line 31, ../sass/social_foundicons.scss */
 .foundicon-behance:after {
   content: "behance";
 }
 
-/* line 32, ../sass/social_foundicons.scss */
 .foundicon-reddit:after {
   content: "reddit";
 }
 
-/* line 33, ../sass/social_foundicons.scss */
 .foundicon-google-plus:after {
   content: "google-plus";
 }
 
-/* line 34, ../sass/social_foundicons.scss */
 .foundicon-youtube:after {
   content: "youtube";
 }
 
-/* line 35, ../sass/social_foundicons.scss */
 .foundicon-vimeo:after {
   content: "vimeo";
 }
 
-/* line 36, ../sass/social_foundicons.scss */
 .foundicon-flickr:after {
   content: "flickr";
 }
 
-/* line 37, ../sass/social_foundicons.scss */
 .foundicon-slideshare:after {
   content: "slideshare";
 }
 
-/* line 38, ../sass/social_foundicons.scss */
 .foundicon-picassa:after {
   content: "picassa";
 }
 
-/* line 39, ../sass/social_foundicons.scss */
 .foundicon-skype:after {
   content: "skype";
 }
 
-/* line 40, ../sass/social_foundicons.scss */
 .foundicon-steam:after {
   content: "steam";
 }
 
-/* line 41, ../sass/social_foundicons.scss */
 .foundicon-instagram:after {
   content: "instagram";
 }
 
-/* line 42, ../sass/social_foundicons.scss */
 .foundicon-foursquare:after {
   content: "foursquare";
 }
 
-/* line 43, ../sass/social_foundicons.scss */
 .foundicon-delicious:after {
   content: "delicious";
 }
 
-/* line 44, ../sass/social_foundicons.scss */
 .foundicon-chat:after {
   content: "chat";
 }
 
-/* line 45, ../sass/social_foundicons.scss */
 .foundicon-torso:after {
   content: "torso";
 }
 
-/* line 46, ../sass/social_foundicons.scss */
 .foundicon-tumblr:after {
   content: "tumblr";
 }
 
-/* line 47, ../sass/social_foundicons.scss */
 .foundicon-video-chat:after {
   content: "video-chat";
 }
 
-/* line 48, ../sass/social_foundicons.scss */
 .foundicon-digg:after {
   content: "digg";
 }
 
-/* line 49, ../sass/social_foundicons.scss */
 .foundicon-wordpress:after {
   content: "wordpress";
 }
 
 /* global foundicon styles */
-/* line 52, ../sass/social_foundicons.scss */
 [class*="foundicon-"] {
   display: inline;
   width: auto;
@@ -184,7 +153,6 @@
   background-repeat: repeat;
 }
 
-/* line 62, ../sass/social_foundicons.scss */
 [class*="foundicon-"]:before {
   font-family: "SocialFoundicons";
   font-weight: normal;
@@ -193,152 +161,122 @@
 }
 
 /* icons */
-/* line 6, ../sass/_settings.scss */
 .foundicon-thumb-up:before {
-  content: "000";
+  content: "\f000";
 }
 
-/* line 6, ../sass/_settings.scss */
 .foundicon-thumb-down:before {
-  content: "001";
+  content: "\f001";
 }
 
-/* line 6, ../sass/_settings.scss */
 .foundicon-rss:before {
-  content: "002";
+  content: "\f002";
 }
 
-/* line 6, ../sass/_settings.scss */
 .foundicon-facebook:before {
-  content: "003";
+  content: "\f003";
 }
 
-/* line 6, ../sass/_settings.scss */
 .foundicon-twitter:before {
-  content: "004";
+  content: "\f004";
 }
 
-/* line 6, ../sass/_settings.scss */
 .foundicon-pinterest:before {
-  content: "005";
+  content: "\f005";
 }
 
-/* line 6, ../sass/_settings.scss */
 .foundicon-github:before {
-  content: "006";
+  content: "\f006";
 }
 
-/* line 6, ../sass/_settings.scss */
 .foundicon-path:before {
-  content: "007";
+  content: "\f007";
 }
 
-/* line 6, ../sass/_settings.scss */
 .foundicon-linkedin:before {
-  content: "008";
+  content: "\f008";
 }
 
-/* line 6, ../sass/_settings.scss */
 .foundicon-dribbble:before {
-  content: "009";
+  content: "\f009";
 }
 
-/* line 6, ../sass/_settings.scss */
 .foundicon-stumble-upon:before {
-  content: "00a";
+  content: "\f00a";
 }
 
-/* line 6, ../sass/_settings.scss */
 .foundicon-behance:before {
-  content: "00b";
+  content: "\f00b";
 }
 
-/* line 6, ../sass/_settings.scss */
 .foundicon-reddit:before {
-  content: "00c";
+  content: "\f00c";
 }
 
-/* line 6, ../sass/_settings.scss */
 .foundicon-google-plus:before {
-  content: "00d";
+  content: "\f00d";
 }
 
-/* line 6, ../sass/_settings.scss */
 .foundicon-youtube:before {
-  content: "00e";
+  content: "\f00e";
 }
 
-/* line 6, ../sass/_settings.scss */
 .foundicon-vimeo:before {
-  content: "00f";
+  content: "\f00f";
 }
 
-/* line 6, ../sass/_settings.scss */
 .foundicon-flickr:before {
-  content: "010";
+  content: "\f010";
 }
 
-/* line 6, ../sass/_settings.scss */
 .foundicon-slideshare:before {
-  content: "011";
+  content: "\f011";
 }
 
-/* line 6, ../sass/_settings.scss */
 .foundicon-picassa:before {
-  content: "012";
+  content: "\f012";
 }
 
-/* line 6, ../sass/_settings.scss */
 .foundicon-skype:before {
-  content: "013";
+  content: "\f013";
 }
 
-/* line 6, ../sass/_settings.scss */
 .foundicon-steam:before {
-  content: "014";
+  content: "\f014";
 }
 
-/* line 6, ../sass/_settings.scss */
 .foundicon-instagram:before {
-  content: "015";
+  content: "\f015";
 }
 
-/* line 6, ../sass/_settings.scss */
 .foundicon-foursquare:before {
-  content: "016";
+  content: "\f016";
 }
 
-/* line 6, ../sass/_settings.scss */
 .foundicon-delicious:before {
-  content: "017";
+  content: "\f017";
 }
 
-/* line 6, ../sass/_settings.scss */
 .foundicon-chat:before {
-  content: "018";
+  content: "\f018";
 }
 
-/* line 6, ../sass/_settings.scss */
 .foundicon-torso:before {
-  content: "019";
+  content: "\f019";
 }
 
-/* line 6, ../sass/_settings.scss */
 .foundicon-tumblr:before {
-  content: "01a";
+  content: "\f01a";
 }
 
-/* line 6, ../sass/_settings.scss */
 .foundicon-video-chat:before {
-  content: "01b";
+  content: "\f01b";
 }
 
-/* line 6, ../sass/_settings.scss */
 .foundicon-digg:before {
-  content: "01c";
+  content: "\f01c";
 }
 
-/* line 6, ../sass/_settings.scss */
 .foundicon-wordpress:before {
-  content: "01d";
+  content: "\f01d";
 }

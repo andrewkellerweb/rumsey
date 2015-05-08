@@ -1,4 +1,4 @@
-<header>
+<header class="test">
 		<div class="container-common">
 			<h1 class="clear"><a href="<?php print $front_page; ?>" class="logo-main">Rumsey</a>
 				<a href="#" class="menu-trigger">Menu</a>
