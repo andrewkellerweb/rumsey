@@ -78,6 +78,16 @@
   <?php print $page; ?>
   <?php print $page_bottom; ?>
 
+<script type="text/javascript">
+   var cdJsHost = (("https:" == document.location.protocol) ? "https://" : "http://");
+   document.write(unescape("%3Cscript src='" + cdJsHost + "analytics.clickdimensions.com/ts.js' type='text/javascript'%3E%3C/script%3E"));
+ </script>
 
+<script type="text/javascript">
+   var cdAnalytics = new clickdimensions.Analytics('analytics.clickdimensions.com');
+   cdAnalytics.setAccountKey('aSM5OfYtehEyv1kgK7geNg');
+   cdAnalytics.setDomain('rumsey.com');
+   cdAnalytics.trackPage();
+ </script>
 </body>
 </html>

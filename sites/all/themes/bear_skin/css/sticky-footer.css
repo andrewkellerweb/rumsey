@@ -1,17 +1,21 @@
+/* line 1, ../sass/sticky-footer.scss */
 html, body {
   height: 100%;
 }
 
+/* line 3, ../sass/sticky-footer.scss */
 #page {
   min-height: 100%;
 }
 
+/* line 5, ../sass/sticky-footer.scss */
 #main {
   overflow: auto;
   padding-bottom: 100px;
 }
 
 /* must be same height as the footer */
+/* line 8, ../sass/sticky-footer.scss */
 #footer {
   position: relative;
   margin-top: -100px;
@@ -21,6 +25,7 @@ html, body {
 }
 
 /*Opera Fix*/
+/* line 14, ../sass/sticky-footer.scss */
 body:before {
   content: "";
   height: 100%;
@@ -29,6 +34,7 @@ body:before {
   margin-top: -32767px;
 }
 
+/* line 21, ../sass/sticky-footer.scss */
 .ie7 #page {
   display: table;
   height: 100%;

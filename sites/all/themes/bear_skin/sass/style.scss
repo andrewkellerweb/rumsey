@@ -360,7 +360,7 @@ footer {
 		.logos {padding: 10px; clear: both;}
 		a.iso {width: 10%; padding: 2px; margin: 2px;}
 		.rockwell {width: 30%;}
-		a.twitter, a.facebook {
+		.social a {
 		display: block;
 		float: left;
 		padding: 0 0 0 35px;
@@ -378,6 +378,10 @@ footer {
 		a.facebook {
 			background-position: 0 0;
 			&:hover {background-position: 35px 0;}
+		}
+		a.gplus {
+			background-position: 0 -105px;
+			&:hover {background-position: -35px -105px;}
 		}
 	}
 }
@@ -1050,7 +1054,7 @@ ul.pager {
 	}
 	.left {width: 25%;}
 	.middle {width: 70%;}
-	.right {width: 97%; margin-right: 0; clear: left;}
+	.right {width: 97%; margin-right: 0;}
 	header {
 		@include clear;
 		padding: 0 20px;
@@ -1243,9 +1247,18 @@ iframe form.wufoo {
 		width: 960px;
 	}
 	a.menu-trigger {display: none;}
-	.left {width: 215px;}
-	.middle {width: 68%}
-	.right {width: 30%; margin-right: 0; clear: none;}
+	.content-area {
+		.left {display: none;}
+		.middle {width: 68%}
+		.right {
+			width: 30%;
+		}
+	}
+	footer {
+		.left {width: 18%;}
+		.middle {width: 48%;}
+		.right {width: 30%; margin-right: 0; clear: none;}
+	}
 	header {
 		padding-bottom: 0px;
 		.search {
@@ -1524,5 +1537,18 @@ iframe form.wufoo {
 	body.twocol #sidebar_bg {
 		top: 190px;
 	}
+}
+
+table {
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+table td, table th {
+	border-width: 1px;
+	padding: 15px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
 }
 

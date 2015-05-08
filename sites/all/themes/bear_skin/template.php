@@ -28,7 +28,13 @@ function bear_skin_links($variables) {
  */
 function bear_skin_preprocess_page(&$vars) {
  $vars['user_menu'] =  theme('links', array('links' => menu_navigation_links('user-menu'), 'attributes' => array('class '=> array('links', 'site-menu'))));
+   if (arg(0) == ‘taxonomy’ && arg(1) == ‘term’ && is_numeric(arg(2))){
+     unset($vars['page']['content']['system_main']['nodes']);
+     unset($vars['page']['content']['system_main']['pager']);
+     unset($vars['page']['content']['system_main']['no_content']);
+   }
 }
+
 
 /***********************
 Let's load some CSS on specific targets - uncomment to use

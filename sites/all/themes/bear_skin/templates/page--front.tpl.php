@@ -131,7 +131,6 @@
 			<h2 class="join">Join our E-Mail List</h2>
 			<div class="join-newsletter">
 				<div class="form content" style="display: none;">
-					TEST
 					<?php print render($page['featured1']); ?>
 				</div>
 			</div>
@@ -156,6 +155,7 @@
 			<div class="social">
 				<a target="_blank" href="http://facebook.com/rumseyelectric" class="facebook">Facebook</a>
 				<a target="_blank" href="http://twitter.com/RumseyElectric" class="twitter">Twitter</a>
+				<a target="_blank" class="gplus" href="https://plus.google.com/110594306389415420482" rel="publisher">Google+</a>
 			</div>
 			<div class="logos">
 				<a href="/page/rockwell-automation-authorized-distributor" class="rockwell"><img src="/<?php print path_to_theme(); ?>/images/a-b_Quality.png" alt="A-B Quality | Authorized Distributor"></a>

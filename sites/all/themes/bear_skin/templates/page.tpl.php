@@ -1,4 +1,4 @@
-<header class="test">
+<header>
 		<div class="container-common">
 			<h1 class="clear"><a href="<?php print $front_page; ?>" class="logo-main">Rumsey</a>
 				<a href="#" class="menu-trigger">Menu</a>
@@ -53,6 +53,7 @@
 			<div class="social">
 				<a target="_blank" href="http://facebook.com/rumseyelectric" class="facebook">Facebook</a>
 				<a target="_blank" href="http://twitter.com/RumseyElectric" class="twitter">Twitter</a>
+				<a target="_blank" class="gplus" href="https://plus.google.com/110594306389415420482" rel="publisher">Google+</a>
 			</div>
 			<div class="logos">
 				<a href="/page/rockwell-automation-authorized-distributor" class="rockwell"><img src="/<?php print path_to_theme(); ?>/images/a-b_Quality.png" alt="A-B Quality | Authorized Distributor"></a>
