@@ -2315,11 +2315,93 @@ table {
   border-collapse: collapse;
 }
 
-/* line 1547, ../sass/style.scss */
+/* line 1548, ../sass/style.scss */
 table td, table th {
   border-width: 1px;
   padding: 15px;
   border-style: solid;
   border-color: #666666;
   background-color: #ffffff;
+}
+
+/* line 1557, ../sass/style.scss */
+.careers-list input[type="text"] {
+  max-width: 90%;
+}
+/* line 1561, ../sass/style.scss */
+.careers-list .views-exposed-widget label {
+  display: inline-block;
+  width: 20%;
+  min-width: 100px;
+}
+/* line 1566, ../sass/style.scss */
+.careers-list .views-exposed-widget .views-widget {
+  display: inline-block;
+}
+/* line 1570, ../sass/style.scss */
+.careers-list .form-type-bef-checkbox label {
+  font-weight: normal;
+}
+/* line 1573, ../sass/style.scss */
+.careers-list .view-filters {
+  margin: 0 0 30px;
+}
+
+/* line 1578, ../sass/style.scss */
+.node-jobpost {
+  background: #e2f2ff;
+  padding: 15px;
+  margin: 0 0 5px;
+  display: block;
+  transition: opacity, .35s;
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+/* line 1586, ../sass/style.scss */
+.node-jobpost * {
+  box-sizing: border-box;
+}
+/* line 1589, ../sass/style.scss */
+.node-jobpost:hover {
+  color: black;
+  text-decoration: none;
+  opacity: 0.5;
+}
+/* line 1594, ../sass/style.scss */
+.node-jobpost h3 {
+  width: 66%;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 1599, ../sass/style.scss */
+.node-jobpost .info {
+  width: 31%;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 1603, ../sass/style.scss */
+.node-jobpost .info img {
+  max-width: 100%;
+  margin: 0;
+  text-decoration: none;
+}
+@media screen and (min-width: 640px) {
+  /* line 1610, ../sass/style.scss */
+  .node-jobpost h3 {
+    width: 60%;
+  }
+  /* line 1613, ../sass/style.scss */
+  .node-jobpost .info {
+    width: 35%;
+  }
+}
+@media screen and (min-width: 800px) {
+  /* line 1618, ../sass/style.scss */
+  .node-jobpost h3 {
+    width: 66%;
+  }
+  /* line 1621, ../sass/style.scss */
+  .node-jobpost .info {
+    width: 31%;
+  }
 }

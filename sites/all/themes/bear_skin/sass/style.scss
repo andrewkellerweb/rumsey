@@ -1544,11 +1544,83 @@ table {
 	border-color: #666666;
 	border-collapse: collapse;
 }
+
 table td, table th {
 	border-width: 1px;
 	padding: 15px;
 	border-style: solid;
 	border-color: #666666;
 	background-color: #ffffff;
+}
+
+.careers-list {
+	input[type="text"] {
+		max-width: 90%;
+	}
+	.views-exposed-widget {
+		label {
+			display: inline-block;
+			width: 20%;
+			min-width: 100px;
+		}
+		.views-widget {
+			display: inline-block;
+		}
+	}
+	.form-type-bef-checkbox label {
+		font-weight: normal;
+	}
+	.view-filters {
+		margin: 0 0 30px;
+	}
+}
+
+.node-jobpost {
+	background: #e2f2ff;
+	padding: 15px;
+	margin: 0 0 5px;
+	display: block;
+	transition: opacity, .35s;
+	box-sizing: border-box;
+	text-decoration: none !important;
+	* {
+		box-sizing: border-box;
+	}
+	&:hover {
+		color: black;
+		text-decoration: none;
+		opacity: 0.5;
+	}
+	h3 {
+		width: 66%;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.info {
+		width: 31%;
+		display: inline-block;
+		vertical-align: top;
+		img {
+			max-width: 100%;
+			margin: 0;
+			text-decoration: none;
+		}
+	}
+	@media screen and (min-width: 640px) {
+		h3 {
+			width: 60%;
+		}
+		.info {
+			width: 35%;
+		}
+	}
+	@media screen and (min-width: 800px) {
+		h3 {
+			width: 66%;
+		}
+		.info {
+			width: 31%;
+		}
+	}
 }
 
